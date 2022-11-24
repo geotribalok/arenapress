@@ -1,0 +1,16 @@
+.cuadrado1, .cuadrado2, .cuadrado3 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#rojo {
+    background: red;
+}
+#azul {
+    background: blue;
+}
+#amarillo {
+    background:yellow;
+}

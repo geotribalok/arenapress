@@ -1,0 +1,28 @@
+#divimg {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#divcontacto {
+	background-color: aqua;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.container {
+	background-color: aqua;
+	padding: 20px;
+}
+
+.card {
+	margin-top: 50px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

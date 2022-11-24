@@ -1,0 +1,26 @@
+/*font-family: 'Noto Sans', sans-serif;*/
+
+
+.texto {
+    background-color: orange;
+    column-count: 3;
+    column-gap: 50;
+    column-rule: 2px solid black;
+
+}
+
+.texto .sinmargen {
+    margin-top: 0;
+}
+
+h2 {
+    color: blueviolet;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70px;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <script>
+    var num1, num2, num3;
+    num1 = prompt('Ingrese primer número:', '');
+    num2 = prompt('Ingrese segundo número:', '');
+    num3 = prompt('Ingrese tercer número:', '');
+    num4 = prompt('Ingrese cuarto número:', '');
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+    num3 = parseInt(num3);
+    num4 = parseInt(num4);
+    if (num1 > num2 && num1 > num3 && num1 > num4) {
+      document.write('el mayor es el ' + num1);
+    }
+    else {
+      if (num2 > num3 && num2 > num4) {
+        document.write('el mayor es el ' + num2);
+      }
+      if (num3 > num4) {
+        document.write('el mayor es el ' + num3);
+      }
+      else {
+        document.write('el mayor es el ' + num4);
+      }
+    }
+  </script>
+
+</body>
+
+</html>
