@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" href="taream3u4ej2.css">
+</head>
+
+<body>
+	<div class="box">
+		<textarea rows="3" maxlength="100" id="mensaje"></textarea>
+		<div id="contador">0/100</div>
+	  </div>
+</body>
+
+<script>
+	const mensaje = document.getElementById('mensaje');
+	const contador = document.getElementById('contador');
+	
+	mensaje.addEventListener('input', function(e) {
+		const target = e.target;
+		const longitudMax = target.getAttribute('maxlength');
+		const longitudAct = target.value.length;
+		contador.innerHTML = `${longitudAct}/${longitudMax}`;
+	});
+	</script>
+
+</html>
